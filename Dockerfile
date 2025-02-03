@@ -1,4 +1,4 @@
-FROM node:18.20.0-alpine AS build
+FROM node:18.20.6-alpine AS build
 WORKDIR /app
 COPY package*.json ./
 EXPOSE 4200
